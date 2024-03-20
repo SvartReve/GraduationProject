@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- BASIC -->
+    <meta charset="utf-8">
+
+    <!-- Author -->
+    <meta name="author" content="Стрелков Владимир" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    
+    <!-- title in browser search-->
+    <meta property="og:title" content="Онлайн-кинотеатр «КИВИ»" />
+   
+    <!-- Image in browser search -->
+    <meta
+        property="og:image"
+        content="./images/" />
+
+    <!-- Description in browser search -->
+    <meta
+        property="og:description"
+        content="Онлайн-кинотеатр «КИВИ» — это веб платформа, предназначенная для просмотра фильмов, сериалов и мультфильмов." />
+
+
+    <!-- LINKS -->
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+
+    <style>
+
+        .welcome-banner{
+            height:60vh;
+        }
+
+        .nav-list_item{
+
+            height:60px;
+            padding: 0 20px;
+
+            display: flex;
+            align-items: center;
+
+        }
+
+        .logo a{
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Шапка сайта -->
+    <header class="bg-dark d-flex justify-content-around" style="width:100%; height:60px;">
+       <!-- Логотип сайта -->
+        <div class="logo d-flex align-items-center">
+            <a class="text-white" href="#!">Logotype</a>
+        </div>
+        <!-- Навигация -->
+        <nav>
+            <ul class="nav-list d-flex flex-row justify-content-center">
+                <li class="bg-light nav-list_item"><a class="text-dark text-decoration-none" href="#!">Главная</a></li>
+                <li class="bg-light nav-list_item"><a class="text-dark text-decoration-none" href="#!">Каталог</a></li>
+                <li class="bg-light nav-list_item"><a class="text-dark text-decoration-none" href="#!">Заказы</a></li>
+            </ul>
+        </nav>
+        <!-- личный кабинет -->
+        <div class="account d-flex align-items-center">
+            <a class="text-white " href="#!">Войти</a>
+        </div>
+    </header>
+
+    <!-- Приветствующий баннер -->
+    <section>
+        <div class="welcome-banner container bg-dark">
+            <div class="films">
+                <div class="film"></div>
+                <div class="film"></div>
+                <div class="film"></div>
+                <div class="film"></div>
+            </div>
+        </div>
+    </section>
+        
+    <!-- Баннер с рекламой -->
+    <section class="d-flex align-items-center">
+        <div class="container d-inline-flex align-items-center justify-content-center">
+            <div class="d-flex flex-column align-items-center justify-content-center" style="width:360px; height:540px;">
+                <h3>some text</h3>
+                <p>text and some rtghrtgrge</p>
+                <button>click on me</button>
+            </div>
+            <div><img src="./images/banners/t34_poster2.jpg" alt="t-34"></div>
+        </div>
+    </section>
+       
+    <!-- Форма заказоов -->
+    <section>
+        <div class="container ">
+            <h2>Some text</h2>
+            <form class="d-flex flex-column" action="" method="POST">
+                <input type="text">
+                <input type="text">
+                <button>click me</button>
+            </form>
+        </div>
+    </section>
+
+    <section>
+        
+    </section>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <nav>
+            <ul>
+                <li></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
